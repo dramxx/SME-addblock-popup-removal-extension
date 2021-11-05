@@ -1,0 +1,12 @@
+{
+  "name": "SME-addblock-popup-removal-extension",
+  "description": "Removes pesky Addblock popup from sme.sk!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["main.js"],
+      "matches": ["https://*.sme.sk/*"]
+    }
+  ]
+}
